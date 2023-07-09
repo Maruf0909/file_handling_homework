@@ -15,7 +15,7 @@ def main(data:str):
 
 
 # Read data from file
-f = open("data/data03.txt",encoding='utf8')
+f = open("data/data03.txt", "r")
 data = f.read()
 f.close
 print(main(data))
